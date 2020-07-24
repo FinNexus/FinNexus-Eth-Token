@@ -4,15 +4,12 @@ import './ERC20.sol';
 import './Owned.sol';
 
 
-/**
- * @dev Example of the ERC20 Token.
- */
 contract FnxToken is Owned, ERC20{
-
     using SafeMath for uint;
 
-    string private _name = "";
-    string private _symbol = "";
+    string private _name = "FNX";
+    string private _symbol = "FNX";
+
     uint8 private _decimals = 18;
 
     /// FinNexus total tokens supply
